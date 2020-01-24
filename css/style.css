@@ -1,0 +1,113 @@
+html {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    overflow-x: hidden; 
+}
+
+
+header nav {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url("/img/face2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+header h1 {
+    font-family: 'Caveat', cursive;
+    margin: 2em;
+    font-size: 3em;
+}
+
+ul {
+    display: flex;
+}
+ul li {
+    display: block;
+    padding: 1em;
+    margin: 0.5em;
+    
+    
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+
+li a:hover{
+    font-size: 2em;
+}
+
+
+.about {
+    display: flex;
+    margin: 5em;
+    padding: 5em;
+}
+
+.about img {
+    width: 30vw;
+    height: auto;
+    margin: 3.4em;
+}
+
+.bio {
+    margin: 3.4em;
+}
+
+h1 {
+    text-align: center;
+}
+.work {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    padding: 2em;
+    grid-gap: 4em;
+    margin: 10em;
+}
+
+.work .tema img {
+    width: 20vw;
+    height: auto;
+    border: solid black 3px;
+}
+
+
+
+
+
+
+footer {
+    border-top: 1em;
+    min-height: 15em;
+    color: white;
+    background-color: brown;
+    padding: 5em 10em ;
+}
+footer .wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer img {
+    width: 10em;
+    height: auto;
+    margin: 1em;
+}
