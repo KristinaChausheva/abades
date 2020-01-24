@@ -14,7 +14,7 @@
         {% if current_page.title %}
   
         <li class="page-title-{{ current_page.title | slugify }}{% if current_page.url == page.url %} current-page{% endif %}">
-            <a href="{{ current_page.url }}">{{ current_page.title }}</a>
+            <a href="/abades/{{ current_page.url }}">{{ current_page.title }}</a>
       
         </li>
       
