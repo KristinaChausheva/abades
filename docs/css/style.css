@@ -13,7 +13,7 @@ body {
 header nav {
     width: 100vw;
     min-height: 100vh;
-    background-image: url("/img/face2.png");
+    background-image: url("../img/face2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
